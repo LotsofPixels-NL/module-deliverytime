@@ -1,0 +1,14 @@
+<?php
+/** @var Magento\Framework\View\Element\Template $block */
+/** @var Lotsofpixels\DeliveryTime\ViewModel\Deliverytime $urlViewModel */
+$objectViewModel = $block->getData('deliverytime_viewmodel');
+$image = $block->getViewFileUrl('Lotsofpixels_DeliveryTime::images/information.png');
+?>
+<p class="color">Vandaag besteld, <?= $objectViewModel->getDeliverytime(); ?> in huis <span class="tooltip">
+        <img src="<?= $image ?>" alt="Informatie over levertijden" class="information">
+    <span class="tooltiptext"><b> Levertijd</b>
+        <br>We doen er alles aan om dit artikel op tijd te bezorgen. Het is echter in een enkel geval mogelijk dat door omstandigheden de bezorging vertraagd is.</span>
+</span></p>
+
+
+
