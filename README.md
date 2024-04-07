@@ -16,3 +16,4 @@ PHP > 8.*
 
 - 1.0.0  Initial release 2024-03-01
 - 1.0.1  Add style for Breeze theme 2024-03-01
+- 1.1.0  Adding Jquery for FPC issue on pdp
